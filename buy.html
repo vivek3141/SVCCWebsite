@@ -67,25 +67,24 @@
 </nav>
 
 <section class="page-section cta">
-    <img class="img-fluid mb-3 mb-lg-0 rounded" src="img/cube.png" alt="" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30%; width:30%;"><br>
     <div class="container">
         <div class="row">
             <div class="col-xl-9 mx-auto">
-                <div class="">
-                    <div class="cta-inner text-center rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-lower">Shengshou Gem</span>
-                        </h2>
-                        <p class="mb-0">The Shengshou Gem features a smooth, slightly bumpy texture and black internals.
-                            It offers one of
-                            the best price to performance ratio for any cube. By buying a cube here, you reserve it to
-                            be purchased at the
-                            next meeting. THIS DOES NOT REQUIRE ANY PAYMENT OR PAYMENT INFO. PAYMENT IS DONE AT THE NEXT
-                            MEETING.</p><br>
-                        <a class="btn btn-primary btn-xl" href="buy.html">Buy - $10.00</a>
+
+                <div class="cta-inner text-center rounded">
+                    <div id="rm">
+                        <p class="mb-0">BY BUYING THIS, YOU DO NOT HAVE TO PAY ANY MONEY. THIS IS A WAY TO RESERVE A
+                            PUZZLE
+                            FOR PURCHASE. BY CLICKING THIS BUTTON, I AGREE THAT I WILL PAY THE MONEY AT THE NEXT MEETING
+                            AND
+                            WILL PURCHASE THE CUBE.</p><br>
+                        <input type="checkbox" class="form-check-input" id="check_tos">
+                        <label class="form-check-label" for="check_tos">I have read the above and agree to
+                            it</label><br><br>
+
+                        <input class="form-control" type="text" id="text" placeholder="Please enter your name here"><br>
+
+                        <button class="btn btn-primary btn-xl" href="buy.html" id="submit_button">Buy - $10.00</button>
                     </div>
                 </div>
             </div>
@@ -103,7 +102,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+<script src="js/submit_form.js"></script>
 </body>
 
 <!-- Script to highlight the active date in the hours list -->
