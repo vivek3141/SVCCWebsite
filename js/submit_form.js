@@ -26,7 +26,6 @@ btn.addEventListener("click", e => {
         request.send(null);
         request.onreadystatechange = function () {
             if (request.readyState == 4)
-                var text = request.responseText;
                 document.getElementById("rm").innerHTML = "<h3>Success! Please come to the next meeting to pick it up.</h3>";
         };
     }
